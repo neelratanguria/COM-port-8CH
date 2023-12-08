@@ -2,7 +2,7 @@ import serial
 import json
 import matplotlib.pyplot as plt
 
-ser = serial.Serial(port='COM31', baudrate=115200)
+ser = serial.Serial(port='COM5', baudrate=115200)
 
 line = ser.readline()
 Channels = ["CH0","CH1","CH2","CH3","CH4","CH5","CH6","CH7",]
